@@ -1,0 +1,18 @@
+[
+  {"model": "publisher", "pk": 1, "fields": {"name": "Оруэлл"}},
+  {"model": "publisher", "pk": 2, "fields": {"name": "Брэдбери"}},
+  {"model": "book", "pk": 1, "fields": {"title": "1984", "id_publisher": 1}},
+  {"model": "book", "pk": 2, "fields": {"title": "Глотнуть воздуха", "id_publisher": 1}},
+  {"model": "book", "pk": 3, "fields": {"title": "Вино из одуванчиков", "id_publisher": 2}},
+  {"model": "book", "pk": 4, "fields": {"title": "Смерть - дело одинокое", "id_publisher": 2}},
+  {"model": "shop", "pk": 1, "fields": {"name": "Читай-город"}},
+  {"model": "shop", "pk": 2, "fields": {"name": "Лабиринт"}},
+  {"model": "stock", "pk": 1, "fields": {"id_book": 1, "id_shop": 1, "count": 300}},
+  {"model": "stock", "pk": 2, "fields": {"id_book": 2, "id_shop": 2, "count": 100}},
+  {"model": "stock", "pk": 3, "fields": {"id_book": 3, "id_shop": 1, "count": 200}},
+  {"model": "stock", "pk": 4, "fields": {"id_book": 4, "id_shop": 2, "count": 150}},
+  {"model": "sale", "pk": 1, "fields": {"price": 800, "date_sale": "2024-01-06", "id_stock": 1, "count": 200}},
+  {"model": "sale", "pk": 2, "fields": {"price": 450, "date_sale": "2024-02-12", "id_stock": 2, "count": 50}},
+  {"model": "sale", "pk": 3, "fields": {"price": 650, "date_sale": "2024-01-18", "id_stock": 3, "count": 100}},
+  {"model": "sale", "pk": 4, "fields": {"price": 250, "date_sale": "2024-02-01", "id_stock": 4, "count": 75}}
+]
